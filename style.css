@@ -1,0 +1,77 @@
+*
+{
+    font-family: 'Kanit', sans-serif;
+    margin: 0;
+}
+
+.Heand
+{
+    margin: auto;
+    padding: 16px;
+    background-color: #07ad5a;
+    content:"";
+    clear:both;
+}
+
+p
+{
+    margin: 10px;
+}
+
+.content
+{
+    padding: 16px;
+}
+
+.third
+{
+    margin: 20px;
+    display: inline-flex;
+}
+.third h2
+{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.third select
+{
+    font-size: large;
+}
+
+button {
+    background-color: #4CAF50; /* Green */
+    border-radius: 5px;
+    border: 0px;
+    color: white;
+    padding: 5px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+
+  button:hover {
+    cursor: pointer;
+    background-color: skyblue; /* Green */
+    color: white;
+  }
+
+  .checkmark {
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+  }
+
+#a
+{
+    display: block;
+}
+
+#b
+{
+    display: none;
+}
+

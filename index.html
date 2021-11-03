@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" href="style.css">
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<link href="https://fonts.googleapis.com/css2?family=Kanit:wght@200;300&display=swap" rel="stylesheet">
+
+<script src="script.js"></script>
+
+<body>
+
+    <div class="Heand">
+        <h1>คำนวนราคา Potion</h1>
+        <p>ใช้ได้ทั้ง Ro และ Roc</p>
+    </div>
+
+    <div class="content">
+
+        <div class="row">
+            <div class="third">
+                <h2>ซื้อ Herb จากพ่อค้าคนอื่น</h2>
+                <button onclick="add_fuc()" id="menu">เปิด</button>
+            </div>
+        </div>
+
+        <div class="a" id="a">
+            <div class="row">
+                <div class="third">
+                    <h2>ประเภท Herb</h2>
+                    <select id="type">
+                        <option value="Yellow">Yellow</option>
+                        <option value="White">White</option>
+                        <option value="Blue">Blue</option>
+                    </select>
+                </div>
+
+                <div class="third">
+                    <h2>จำนวน Herb</h2>
+                    <input type="number" id="count" value="0">
+                    <h2>ชิ้น</h2>
+                    <button onclick="calu_zeny()">คำนวน</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="b" id="b">
+        <div class="row">
+            <div class="third">
+                <h2>ทุนที่มี </h2>
+                <input type="number" id="player_zeny" value="0">
+                <h2>Zeny</h2>
+            </div>
+
+            <div class="third">
+                <h2>ราคา Herb</h2>
+                <input type="number" id="herb_zeny" value="0">
+                <h2>Zeny</h2>
+                <button onclick="calu_count()">คำนวนจำนวน Herb</button>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="third">
+                <h2>ประเภท Herb</h2>
+                <select id="type">
+                    <option value="Yellow">Yellow</option>
+                    <option value="White">White</option>
+                    <option value="Blue">Blue</option>
+                </select>
+            </div>
+
+            <div class="third">
+                <h2>จำนวน Herb ที่สามารถซื้อได้</h2>
+                <h2 id="count_hr">0</h2>
+                <h2>ชิ้น</h2>
+                <button onclick="compress()">คำนวน</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="third">
+            <h2>Discount Skill Lv.10</h2>
+            <input type="checkbox" class="checkmark" id="dc" value="Bike">
+        </div>
+
+        <div class="row">
+            <div class="third">
+                <h2>รายได้ทั้งหมดจากการขาย : </h2>
+                <h2 id="profit">ราคา</h2>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
