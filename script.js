@@ -44,17 +44,17 @@ function compress() {
         switch (herb_type.value) {
             case "Yellow":
                 var sell = herb_count / 2 * 341 - 10;
-                price.innerHTML = Math.floor(herb_count) / 2 + " ขวด" + Math.floor(sell) + " Zeny";
+                price.innerHTML = Math.floor(herb_count / 2) + " ขวด " + " : " + Math.floor(sell) + " Zeny";
                 break;
                 
             case "White":
                 var sell = herb_count / 2 * 744 - 20;
-                price.innerHTML = Math.floor(herb_count) / 2 + " ขวด" + Math.floor(sell) + " Zeny";
+                price.innerHTML = Math.floor(herb_count / 2) + " ขวด " + " : " + Math.floor(sell) + " Zeny";
                 break;
                 
             case "Blue":
                 var sell = herb_count / 2 * 3100 - 30;
-                price.innerHTML = Math.floor(herb_count) / 2 + " ขวด" + Math.floor(sell) + " Zeny";
+                price.innerHTML = Math.floor(herb_count / 2) + " ขวด " + " : " + Math.floor(sell) + " Zeny";
                 break;
                 
         }
@@ -63,17 +63,17 @@ function compress() {
         switch (herb_type.value) {
             case "Yellow":
                 var sell = herb_count / 2 * 275 - 10;
-                price.innerHTML = Math.floor(herb_count) / 2 + " ขวด" + Math.floor(sell) + " Zeny";
+                price.innerHTML = Math.floor(herb_count / 2) + " ขวด " + " : " + Math.floor(sell) + " Zeny";
                 break;
                 
             case "White":
                 var sell = herb_count / 2 * 600 - 20;
-                price.innerHTML = Math.floor(herb_count) / 2 + " ขวด" + Math.floor(sell) + " Zeny";
+                price.innerHTML = Math.floor(herb_count / 2) + " ขวด " + " : " + Math.floor(sell) + " Zeny";
                 break;
                 
             case "Blue":
                 var sell = herb_count / 2 * 2500 - 30;
-                price.innerHTML = Math.floor(herb_count) / 2 + " ขวด" + Math.floor(sell) + " Zeny";
+                price.innerHTML = Math.floor(herb_count / 2) + " ขวด " + " : " + Math.floor(sell) + " Zeny";
                 break;
                 
         }
